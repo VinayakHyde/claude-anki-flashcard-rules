@@ -50,7 +50,7 @@ I built these by firing off deep-research runs for each broad category I was mak
 ## Prerequisites
 
 - **Anki** running locally with the [AnkiConnect](https://ankiweb.net/shared/info/2055492159) add-on.
-- An MCP server bridging Claude Code to AnkiConnect, e.g. [anki-mcp-server](https://github.com/scorzeth/anki-mcp-server).
+- An MCP server bridging Claude Code to AnkiConnect, e.g. [anki-mcp-server](https://github.com/nailuoGG/anki-mcp-server).
 - The custom math note types (`MathConcept`, `MathProblem`, `MathPool`) created in Anki — full specs in [`rules/math-note-types.md`](rules/math-note-types.md).
 - For code cards, the [badlydrawnrob/anki](https://github.com/badlydrawnrob/anki) APF note types are preferred but optional — the coding rules fall back to Basic/Cloze if unavailable.
 
