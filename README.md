@@ -4,6 +4,10 @@ Opinionated rules for generating high-quality Anki flashcards with [Claude Code]
 
 These are the same rules I use day-to-day — dropped into `~/.claude/rules/` and referenced from a global `CLAUDE.md` so Claude follows them every time I ask it to make cards from a PDF, article, video, or problem set.
 
+## How these rules came together
+
+I built these by firing off deep-research runs for each broad category I was making flashcards on — general spaced-repetition principles, math problem-solving retention, coding/programming recall, DSA pattern recognition — and then distilling the findings into concrete, enforceable rules Claude can actually follow. The recommendations here aren't pulled out of thin air; they're grounded in the research that came back from each of those deep dives (cognitive science on interleaving and the testing effect, Matuschak's prompt-design properties, Nielsen's Ankification, Rohrer on blocked-vs-interleaved practice, etc.), then shaped by what I learned from actually using the cards in review.
+
 ## What's in here
 
 | File | Purpose |
